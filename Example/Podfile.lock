@@ -1,15 +1,22 @@
 PODS:
-  - DemoLib1 (0.1.0)
+  - DemoLib1 (0.1.0):
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - DemoLib1 (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYModel
 
 EXTERNAL SOURCES:
   DemoLib1:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DemoLib1: 538bfffcf0af1f1883c2b40aace3d295a7ea1a05
+  DemoLib1: be9bc533bca848fbd547db66dfa0af30f6fc0cce
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 4a1cefbacc1447daaf5aaa62537fdfb2518ad1bb
 
